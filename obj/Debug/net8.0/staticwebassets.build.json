@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "mLWVAuhD8VKLJip3IC5p1wWzRcS1dqces13jZy1Q9TM=",
+  "Source": "NisFitnessPro",
+  "BasePath": "_content/NisFitnessPro",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NisFitnessPro\\wwwroot",
+      "Source": "NisFitnessPro",
+      "ContentRoot": "C:\\Users\\Dell\\NisFitnessPro\\wwwroot\\",
+      "BasePath": "_content/NisFitnessPro",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Dell\\NisFitnessPro\\wwwroot\\css\\style.css",
+      "SourceId": "NisFitnessPro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\NisFitnessPro\\wwwroot\\",
+      "BasePath": "_content/NisFitnessPro",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\NisFitnessPro\\wwwroot\\index.html",
+      "SourceId": "NisFitnessPro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\NisFitnessPro\\wwwroot\\",
+      "BasePath": "_content/NisFitnessPro",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\NisFitnessPro\\wwwroot\\js\\app.js",
+      "SourceId": "NisFitnessPro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\NisFitnessPro\\wwwroot\\",
+      "BasePath": "_content/NisFitnessPro",
+      "RelativePath": "js/app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\app.js"
+    }
+  ]
+}

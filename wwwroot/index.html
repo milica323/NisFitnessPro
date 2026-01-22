@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niš Fitness PRO | Redis Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container mx-auto px-4 py-8 max-w-5xl">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-6xl font-black neon-text uppercase italic tracking-tighter">
+                Niš Fitness <span class="text-white">PRO</span>
+            </h1>
+            <div class="flex justify-center items-center gap-4 mt-2">
+                <span class="h-[1px] w-12 bg-zinc-800"></span>
+                <p class="text-zinc-500 text-[10px] uppercase tracking-[0.5em]">Redis Stack Engine</p>
+                <span class="h-[1px] w-12 bg-zinc-800"></span>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            
+            <div class="lg:col-span-1 space-y-6">
+                <div class="card p-6 neon-border relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-1 h-full bg-[#00ff99]"></div>
+                    <h2 class="text-xs font-bold text-zinc-400 mb-6 uppercase tracking-widest">Novi Trening</h2>
+                    
+                    <div class="space-y-5">
+                        <div class="group">
+                            <label class="label">Korisničko Ime</label>
+                            <input type="text" id="username" class="input-main" placeholder="npr. Nemanja018">
+                        </div>
+                        
+                        <div class="group">
+                            <label class="label">Distanca (km)</label>
+                            <input type="number" id="distance" class="input-main" placeholder="0.0">
+                        </div>
+
+                        <div class="group">
+                            <label class="label">Lokacija u Nišu</label>
+                            <select id="location-select" class="input-main cursor-pointer">
+                                <option value="43.3175,21.9044">Park Čair</option>
+                                <option value="43.3233,21.8955">Nišavski Kej</option>
+                                <option value="43.3260,21.8950">Tvrđava</option>
+                                <option value="43.3088,21.9311">Bulevar Nemanjića</option>
+                                <option value="43.3215,21.9461">Trošarina</option>
+                            </select>
+                        </div>
+
+                        <button id="btnSave" class="btn-primary">
+                            SNIMI I SKENIRAJ
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card p-6 text-center border-t-2 border-[#00ff99]">
+                    <p class="text-zinc-500 text-[10px] uppercase mb-1">Globalni Rekord</p>
+                    <div id="global-record" class="text-4xl font-black neon-text tabular-nums">0.00 km</div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-1">
+                <div class="card p-6 h-full min-h-[400px] border border-blue-500/20 bg-gradient-to-b from-zinc-900 to-black">
+                    <div class="flex justify-between items-center mb-6">
+                        <h2 class="text-blue-400 font-bold text-xs uppercase tracking-tighter flex items-center">
+                            <span class="radar-ping mr-2"></span> Radar (5km)
+                        </h2>
+                        <span id="nearby-count" class="text-[10px] bg-blue-500/20 text-blue-400 px-2 py-1 rounded border border-blue-500/30">0 trkača</span>
+                    </div>
+
+                    <div id="nearby-list" class="space-y-4">
+                        <div class="text-center py-20">
+                            <p class="text-zinc-700 text-xs italic">Skeniranje nije pokrenuto...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-1 space-y-6">
+                <div class="card p-6 border-l-2 border-yellow-500/50">
+                    <h2 class="text-xs font-bold text-zinc-500 mb-6 uppercase tracking-widest">Top 5 Elita</h2>
+                    <div id="leaderboard" class="space-y-3">
+                        </div>
+                </div>
+
+                <div class="card p-6 bg-zinc-900/30">
+                    <h2 class="text-[10px] text-zinc-600 uppercase mb-4">Live Activity</h2>
+                    <div id="feed" class="space-y-2 opacity-60 italic text-[10px]">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
