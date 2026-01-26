@@ -41,3 +41,4 @@ C:\Users\Dell\NisFitnessPro\obj\Debug\net8.0\refint\NisFitnessPro.dll
 C:\Users\Dell\NisFitnessPro\obj\Debug\net8.0\NisFitnessPro.pdb
 C:\Users\Dell\NisFitnessPro\obj\Debug\net8.0\NisFitnessPro.genruntimeconfig.cache
 C:\Users\Dell\NisFitnessPro\obj\Debug\net8.0\ref\NisFitnessPro.dll
+C:\Users\Dell\NisFitnessPro\obj\Debug\net8.0\NisFitnessPro.sourcelink.json

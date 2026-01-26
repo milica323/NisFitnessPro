@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NisFitnessPro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d24237e097eadc9ed28339ebf4307c2eecb5915d")]
 [assembly: System.Reflection.AssemblyProductAttribute("NisFitnessPro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NisFitnessPro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
